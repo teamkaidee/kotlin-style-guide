@@ -482,7 +482,7 @@ if let unwrappedSubview = optionalSubview {
 
 ## XML Guidance
 
-Since Android uses XML extensively in addition to Kotlin and Java, we have some rules specific to XML. These can be found in our [Java code standards](https://github.com/raywenderlich/java-style-guide#xml-guidance
+Since Android uses XML extensively in addition to Kotlin and Java, we have some rules specific to XML. These can be found in our [Java code standards](https://jeroenmols.com/blog/2016/03/07/resourcenaming/)
 
 
 ## Language
