@@ -324,6 +324,7 @@ __GOOD:__
 
 ```kotlin
 class MyClass {
+
   fun doSomething() {
     if (someTest) {
       // ...
@@ -331,6 +332,7 @@ class MyClass {
       // ...
     }
   }
+  
 }
 ```
 
