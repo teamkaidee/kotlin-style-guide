@@ -358,7 +358,9 @@ __GOOD:__
 if (someTest) {
   doSomething()
 }
-if (someTest) { doSomethingElse() }
+if (someTest) { 
+  doSomethingElse() 
+}
 ```
 
 ## When Statements
