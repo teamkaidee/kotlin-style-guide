@@ -114,11 +114,13 @@ class MyClass {
 }
 ```
 
-Constant values in the companion object should be written in __uppercase__, with an underscore separating words:
+Constant values in the companion object should be written in __uppercase__, with an underscore separating words and has an empty line before and after companion's brackets.
 
 ```kotlin
 companion object {
+
   const val THE_ANSWER = 42
+  
 }
 ```
 
