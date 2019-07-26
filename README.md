@@ -365,7 +365,7 @@ if (someTest) {
 
 ## When Statements
 
-Unlike `switch` statements in Java, `when` statements do not fall through. Separate cases using commas if they should be handled the same way. Always include the else case.
+Unlike `switch` statements in Java, `when` statements do not fall through. Separate cases using commas if they should be handled the same way. Always include the else case and new line with brackets.
 
 __BAD:__
 
@@ -381,9 +381,15 @@ __GOOD:__
 
 ```kotlin
 when (anInput) {
-  1, 2 -> doSomethingForCaseOneOrTwo()
-  3 -> doSomethingForCaseThree()
-  else -> println("No case satisfied")
+  1, 2 -> { 
+    doSomethingForCaseOneOrTwo()
+  }
+  3 -> {
+    doSomethingForCaseThree()
+  }
+  else -> {
+    println("No case satisfied")
+  }
 }
 ```
 
