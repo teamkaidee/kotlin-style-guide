@@ -342,7 +342,7 @@ class MyClass {
 }
 ```
 
-Conditional statements are always required to be enclosed with braces, irrespective of the number of lines required.
+Conditional statements are always required to be enclosed with braces and new line, irrespective of the number of lines required.
 
 __BAD:__
 
