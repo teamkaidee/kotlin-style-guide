@@ -98,15 +98,19 @@ Written in __lowerCamelCase__. For example `setValue`.
 
 ### Fields
 
-Generally, written in __lowerCamelCase__. Fields should **not** be named with Hungarian notation, as Hungarian notation is [erroneously thought](http://jakewharton.com/just-say-no-to-hungarian-notation/) to be recommended by Google.
+Generally, written in __lowerCamelCase__. Fields should **not** be named with Hungarian notation, as Hungarian notation is [erroneously thought](http://jakewharton.com/just-say-no-to-hungarian-notation/) to be recommended by Google, and must have an empty line.
 
 Example field names:
 
 ```kotlin
 class MyClass {
+
   var publicField: Int = 0
+  
   val person = Person()
+  
   private var privateField: Int?
+  
 }
 ```
 
