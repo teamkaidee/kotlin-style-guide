@@ -268,7 +268,7 @@ val widget: CoolUiWidget =
 
 ### Line Length
 
-Lines should be no longer than 100 characters long.
+Lines should be no longer than 120 characters long.
 
 
 ### Vertical Spacing
