@@ -517,6 +517,21 @@ __GOOD:__
 colorName = "red"
 ```
 
+__BAD:__
+
+```kotlin
+display
+```
+
+__GOOD:__ use show word instead
+
+```kotlin
+show
+```
+
+
+
+
 ## Copyright Statement
 
 The following copyright statement should be included at the top of every source file:
